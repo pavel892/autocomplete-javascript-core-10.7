@@ -48,7 +48,7 @@ async function saveRepositories(val) {
     ul.innerHTML = '';
 
     const maxItems = 5;
-	let itemsCount = 0;
+    let itemsCount = 0;
 
     matches.forEach(el => {
     	const item = document.createElement('li');
@@ -66,9 +66,9 @@ async function saveRepositories(val) {
 
 			function createSpanWithNames(text) {
 				const span = document.createElement('span');
-        		span.textContent = text;
-        		span.appendChild(document.createElement('br'));
-        		return span;
+        			span.textContent = text;
+        			span.appendChild(document.createElement('br'));
+        			return span;
 			}
 
 			const itemName = createSpanWithNames(el.name);
@@ -100,7 +100,7 @@ async function saveRepositories(val) {
 
 		appendItems(item);
 
-		 });
+	});
 }
 
 const debouncedFn = debounce(saveRepositories, 300);
