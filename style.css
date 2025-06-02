@@ -18,8 +18,8 @@ input {
 }
 
 ul {
-	list-style-type: none;
-  padding-left: 0;
+  	list-style-type: none;
+  	padding-left: 0;
 }
 
 .suggestion-item {
@@ -41,12 +41,12 @@ ul {
 }
 
 .close-btn {
-  color: red;
-  font-size: 32px;
-  margin-left: 8px;
-  position: absolute;
-  top: 50%;
-  right: 12px;
-  transform: translateY(-50%);
-  cursor: pointer;
+  	color: red;
+        font-size: 32px;
+        margin-left: 8px;
+        position: absolute;
+        top: 50%;
+        right: 12px;
+        transform: translateY(-50%);
+        cursor: pointer;
 }
