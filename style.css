@@ -1,0 +1,52 @@
+body {
+	background: #E5E5E5;
+}
+
+.app {
+	margin: 0 auto;
+	width: 400px;
+	background: #C4C4C4;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+input {
+	width: 200px;
+	height: 24px;
+	display: block;
+	margin: 0 auto;
+}
+
+ul {
+	list-style-type: none;
+  padding-left: 0;
+}
+
+.suggestion-item {
+	width: 208px;
+	height: 20px;
+	background: #E3E3E3;
+	margin: 0 auto;
+	margin-top: 0;
+	border: 1px solid black;
+}
+
+.list-item {
+	width: 208px;
+	height: 60px;
+	background: #E27BEB;
+	margin: 0 auto;
+	margin-top: 20px;
+	position: relative;
+}
+
+.close-btn {
+  color: red;
+  font-size: 32px;
+  margin-left: 8px;
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
